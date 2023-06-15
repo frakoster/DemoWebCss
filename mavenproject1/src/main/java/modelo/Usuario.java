@@ -24,6 +24,11 @@ public class Usuario {
     public Usuario() {
     }
 
+    @Override
+    public String toString() {
+        return "Usuario{" + "idUsuario=" + idUsuario + ", userName=" + userName + ", apellido=" + apellido + ", email=" + email + '}';
+    }
+
     public int getIdUsuario() {
         return idUsuario;
     }
